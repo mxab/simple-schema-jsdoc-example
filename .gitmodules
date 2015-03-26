@@ -1,0 +1,3 @@
+[submodule "packages/simple-schema"]
+	path = packages/simple-schema
+	url = https://github.com/mxab/meteor-simple-schema.git
