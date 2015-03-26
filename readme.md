@@ -4,10 +4,12 @@
 ```git submodule init && git submodule update``
 
 ###Run
-```meteor``
+```meteor```
+
 
 Should result in:
-```
+
+````
 /**
  @name Book
  @type {{
@@ -47,4 +49,4 @@ Should result in:
  }}
  */
 
-```
+````
