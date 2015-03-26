@@ -1,5 +1,5 @@
-function printSchema(schema, typeName){
-  console.log("/** \n@name %s\n@type {%s} \n*/",typeName,schema.jSDocType())
+function printSchema(schema, typeName) {
+  console.log("/** \n@name %s\n@type {%s} \n*/", typeName, schema.jSDocType())
 }
 
 BookSchema = new SimpleSchema({
@@ -67,3 +67,5 @@ printSchema(AddressSchema, "Address");
 
 console.log("#########Customerk Schema")
 printSchema(CustomerSchema, "Customer");
+
+
