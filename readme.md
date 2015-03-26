@@ -5,12 +5,10 @@
 
 
 ###Run
-```meteor```
+```meteor``` Should result in:
 
+```
 
-Should result in:
-
-````
 /**
  @name Book
  @type {{
@@ -50,4 +48,4 @@ Should result in:
  }}
  */
 
-````
+```
