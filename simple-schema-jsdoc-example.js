@@ -1,5 +1,5 @@
 function printSchema(schema, typeName) {
-  console.log("/** \n@name %s\n@type {%s} \n*/", typeName, schema.jSDocType())
+  console.log("/** \n\n@typedef {%s} %s\n*/", schema.jSDocType(), typeName)
 }
 
 BookSchema = new SimpleSchema({

@@ -7,10 +7,10 @@
 ###Run
 ```meteor```
 
-
 Should result in:
 
 ````
+
 /**
  @name Book
  @type {{
