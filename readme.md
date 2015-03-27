@@ -5,11 +5,15 @@
 
 
 ###Run
-```meteor```
+```meteor``` Should result in:
 
+<<<<<<< HEAD
 Should result in:
 
 ````
+=======
+```
+>>>>>>> c64081f925e8ba4241cbe3a9a56521e5a310be72
 
 /**
  @name Book
@@ -50,4 +54,4 @@ Should result in:
  }}
  */
 
-````
+```
