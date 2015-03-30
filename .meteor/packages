@@ -8,3 +8,4 @@ meteor-platform
 autopublish
 insecure
 aldeed:simple-schema
+mxab:simple-schema-jsdoc

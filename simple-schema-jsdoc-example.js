@@ -57,6 +57,12 @@ CustomerSchema = new SimpleSchema({
   shippingAddresses: {
     type: [AddressSchema],
     minCount: 1
+  },
+  favoriteNumbers : {
+    type : [Number]
+  },
+  birthday :  {
+    type : Date
   }
 });
 console.log("#########Book Schema")

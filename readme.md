@@ -7,38 +7,29 @@
 ###Run
 ```meteor``` Should result in:
 
-<<<<<<< HEAD
-Should result in:
-
-````
-=======
 ```
->>>>>>> c64081f925e8ba4241cbe3a9a56521e5a310be72
 
 /**
- @name Book
- @type {{
+ @typedef {{
       title : string,
       author : string,
       copies : number,
       lastCheckedOut : (Date|undefined),
       summary : (string|undefined)
- }}
+ }} Book
  */
 
 /**
- @name Address
- @type {{
+ @typedef {{
       street : string,
       city : string,
       state : string,
       zip : string
- }}
+ }} Address
  */
 
 /**
- @name Customer
- @type {{
+ @typedef {{
       billingAddress : {
               street : string,
               city : string,
@@ -51,7 +42,7 @@ Should result in:
                       state : string,
                       zip : string
               }>
- }}
+ }} Customer
  */
 
 ```
